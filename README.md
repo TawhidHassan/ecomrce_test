@@ -1,16 +1,26 @@
-# ecomerce_test
+# ecomerce test
 
-A new Flutter project.
+Build With flutter
 
-## Getting Started
+## Used technology
+1.Flutter
+2.dart
+3.clean arc
+4.getx
+5.go route
+6.mordern component arc
 
-This project is a starting point for a Flutter application.
+## How to use technology
+1. use flutter to build this app for multi platform.
+2. in backend of this app use dart language
+3. we use clean arc for design patterns and maintain our code. this is best practice and worldwide suggested.
+4. we use getx for state management. getx is a powerful state management tool for flutter. it is easy to learn and easy to maintain and big communities use this.
+5. we use go router for navigation. This is best for navigation. it fell like native and also supports deep linking and web url support.
+6. in this app all ui are divided by component and all components are maintainable.
 
-A few resources to get you started if this is your first Flutter project:
+## Future need
+in future we implement other page and update logic, also connect with api.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Apk
+https://drive.google.com/drive/folders/1xR6Uq79skHuRWzObDIL916SXwU7mgtc6?usp=sharing

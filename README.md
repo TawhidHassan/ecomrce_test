@@ -3,12 +3,13 @@
 Build With flutter
 
 ## Used technology
-1.Flutter
-2.dart
-3.clean arc
-4.getx
-5.go route
-6.mordern component arc
+1. Flutter
+2. dart
+3. clean arc
+4. getx
+5. go route
+6. mordern component arc
+
 
 ## How to use technology
 1. use flutter to build this app for multi platform.

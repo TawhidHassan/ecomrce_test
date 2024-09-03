@@ -28,6 +28,7 @@ class _BannerHomeState extends State<BannerHome> {
           children: [
             CarouselSlider.builder(
               itemCount: 4,
+
               itemBuilder: (BuildContext context,
                   int itemIndex, int pageIndex){
                 return Container(
@@ -93,7 +94,7 @@ class _BannerHomeState extends State<BannerHome> {
                   });
                 },
                 enableInfiniteScroll: true,
-                autoPlay: false,
+                autoPlay: true,
                 viewportFraction: 1,
 
               ),

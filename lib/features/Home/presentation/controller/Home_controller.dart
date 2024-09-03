@@ -10,6 +10,7 @@ class HomeController extends GetxController implements GetxService{
   HomeController( { this.homeRepository });
 
   List<String> list=["Promo","Best Deals","Windy Basic","Sports","Electronic"];
+  List<String> gadgetList=["Latest","Popular","Top Deals",];
 
   final selectcat=0.obs;
 

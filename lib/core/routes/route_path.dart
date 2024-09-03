@@ -28,6 +28,9 @@ class Routes {
   static const String HomePage = 'home';
   static const String HomePagePath = '/home';
 
+  static const String gadgetsDayPage = 'gadgetsDayPage';
+  static const String gadgetsDayPagePath = 'gadgetsDayPage';
+
 
   /// chatPage
   static const String chatPage = 'chatPage';

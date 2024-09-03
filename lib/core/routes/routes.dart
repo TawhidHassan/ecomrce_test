@@ -1,3 +1,4 @@
+import 'package:ecomerce_test/features/Home/presentation/pages/gadgets_day_page.dart';
 import 'package:ecomerce_test/features/carts/presentation/pages/carts_page.dart';
 import 'package:ecomerce_test/features/feeds/presentation/pages/feeds_page.dart';
 import 'package:ecomerce_test/features/likes/presentation/pages/likes_page.dart';
@@ -75,7 +76,16 @@ class AppRouter {
                   pageBuilder: (context, state) => const NoTransitionPage(
                         child: HomePage(),
                   ),
-                routes: []
+                routes: [
+                  GoRoute(
+                    name: Routes.gadgetsDayPage,
+                    path: Routes.gadgetsDayPagePath,
+                    pageBuilder: (context, state) => const NoTransitionPage(
+                      child: GadgetsDayPage(),
+                    ),
+                  )
+
+                ]
               ),
 
             ],

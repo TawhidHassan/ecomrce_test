@@ -43,6 +43,7 @@ class CircleContainer extends StatelessWidget {
     return  GestureDetector(
       onTap: onTap,
       child: Container(
+        padding: EdgeInsets.symmetric(horizontal: 4),
         margin: EdgeInsets.only(
             right: paddingRight??0,left:paddingLeft??0,
             top: paddingTop??0,bottom: paddingBottom??0 ),
